@@ -26,4 +26,16 @@
         font-weight: $regular;
         max-width: 68%;
     }
+
+    & .social-icons{
+        
+        display: flex;
+        gap: 3rem;
+        margin-top: 8rem;
+        & .socialIcon{
+            width: $socialIconsWidthAndHeight;
+            height: $socialIconsWidthAndHeight;
+        }
+    }
+  
 }

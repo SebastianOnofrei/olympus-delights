@@ -1,0 +1,14 @@
+@import '../../../scss/foundation/variables';
+h3{
+    font-size: $h3;
+    color: $textColor;
+    text-align: center; 
+}
+
+.our_products{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 6rem;
+    padding: 2rem 10rem;
+}
