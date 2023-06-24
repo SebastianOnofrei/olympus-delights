@@ -1,7 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /*****************
  * FONT FAMILIES *
  *****************/
 
- 
+$fira-sans: 'Fira Sans Condensed',sans-serif;
+$overpass: 'Overpass',sans-serif;
+
+/****************
+* FONT WEIGHTS *
+****************/
+
+$thin:100;
+$extraLight:200;
+$light:300;
+$regular:400;
+$medium:500;
+$semibold:600;
+$bold:700;
+$extrabold:800;
+$boldest:900;
+
+
+/*****************
+* HEADING SIZES *
+*****************/
+
+$h1:75px;
+$h2:48px;
+$h3:32px;
+$h4:24px;
+$h5:20px;
+
+/**************
+* FONT SIZES *
+**************/
+
+$body_xl_price:18px;
+$body_question:16px;
+$body_medium:14px;
+$body_medium_answer:14px;
+$link_size:16px;
+
