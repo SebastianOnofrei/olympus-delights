@@ -18,15 +18,10 @@ a{
     font-family: $herakles;
     font-weight: $regular;
     color: $textColor;
+    transition: all 0.25s ease;
+    &:hover{
+        font-weight: $bold;
+        font-size: $h4;
+    }
 }
 
-/***********
- * BUTTONS *
- ***********/
-
- button{
-    background-color: $buttonPink;
-    color: $white;
-    font-family: $fira-sans;
-    font-size: $body_medium;
- }

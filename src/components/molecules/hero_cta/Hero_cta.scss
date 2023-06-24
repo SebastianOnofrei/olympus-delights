@@ -1,0 +1,29 @@
+@import '../../../scss/foundation/variables';
+
+.hero_cta{
+    background-color: rgb(255, 255, 255);
+    padding-top: 12rem;
+
+    & h1{
+        font-size: $h1;
+        font-family: $fira-sans;
+        color: $textColor;
+        font-weight: $regular;
+    }
+
+    & h2{
+        font-size: $h2;
+        font-family: $fira-sans;
+        color: $textColor;
+        font-weight: $light;
+    }
+    
+    p{
+        padding-top: 2rem;
+        font-size: $body_medium;
+        font-family: $overpass;
+        color: $textColor;
+        font-weight: $regular;
+        max-width: 68%;
+    }
+}
