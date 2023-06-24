@@ -3,7 +3,12 @@
 /*****************
  * FONT FAMILIES *
  *****************/
+@font-face {
+    font-family: 'Herakles';
+    src: url('../../../assets/HERAKLES.TTF');
+}
 
+$herakles: 'Herakles';
 $fira-sans: 'Fira Sans Condensed',sans-serif;
 $overpass: 'Overpass',sans-serif;
 
@@ -40,5 +45,5 @@ $body_xl_price:18px;
 $body_question:16px;
 $body_medium:14px;
 $body_medium_answer:14px;
-$link_size:16px;
+$link_size:20px;
 

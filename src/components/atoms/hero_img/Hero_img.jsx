@@ -1,5 +1,5 @@
 import React from 'react'; 
-import './Hero_img';
+import './Hero_img.scss';
 
 const Hero_img = (props) => {
   return (

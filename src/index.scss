@@ -1,1 +1,32 @@
-@import './scss/main';
+
+@import "./scss/foundation/reset";
+@import "./scss/foundation/mixins";
+@import "./scss/foundation/typography";
+@import "./scss/foundation/colors";
+
+/********************
+ * General STYLING *
+ ********************/
+
+/*********
+ * LINKS *
+ *********/
+
+a{
+    text-decoration: none;
+    font-size: $link_size;
+    font-family: $herakles;
+    font-weight: $regular;
+    color: $textColor;
+}
+
+/***********
+ * BUTTONS *
+ ***********/
+
+ button{
+    background-color: $buttonPink;
+    color: $white;
+    font-family: $fira-sans;
+    font-size: $body_medium;
+ }
