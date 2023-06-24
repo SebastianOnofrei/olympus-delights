@@ -1,0 +1,14 @@
+@import '../../../scss/foundation/variables';
+
+h5{
+    padding-top: 2rem;
+    font-size: $h5;
+    font-weight: $regular;
+    font-family: $fira-sans;
+}
+
+.price{
+    font-size: $body_xl_price;
+    font-family: $fira-sans;
+    font-weight: $regular;
+}
