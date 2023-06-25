@@ -38,7 +38,7 @@ const products = [
 			<section className="our_products">
                 {products.map(product=>{
             return(
-                <Product product={product}/>
+                <Product key={product.product_name} product={product}/>
             )
          })}
             </section>

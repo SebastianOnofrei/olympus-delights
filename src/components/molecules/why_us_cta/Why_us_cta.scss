@@ -1,0 +1,12 @@
+@import '../../../scss/foundation/variables';
+
+.why_us_headline{
+    text-decoration: none;
+    text-align: left;
+    font-size: $h3;
+    font-weight: $regular;
+}
+
+.why_us_cta{
+    @include sectionCta;
+}
