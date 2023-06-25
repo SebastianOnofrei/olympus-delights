@@ -1,15 +1,17 @@
 import React from 'react'
 import Accordion from '../../molecules/accordion/Accordion'
+import image from '../../../assets/cherryyogurt.png'
+import './Faq.scss';
 
 const Faq = () => {
   return (
-    	<>
-			<section>
-                <Accordion />
-				{/* <Hero_img source={image} /> */}
+		<>
+			<h3>FAQ</h3>
+			<section className="faq_section">
+				<Accordion />
 			</section>
 		</>
-    )
+	);
 }
 
 export default Faq

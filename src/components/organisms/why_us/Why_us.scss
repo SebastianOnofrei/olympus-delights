@@ -1,1 +1,15 @@
 @import '../../../scss/foundation/variables';
+
+h3{
+    margin:6rem 0 2rem;
+    text-decoration: underline;
+    text-decoration-color: $buttonPink;
+    text-underline-offset: 1rem;
+    font-size: $h3;
+    font-weight: $regular;
+}
+
+.why_us_section{
+    display: flex;
+
+}

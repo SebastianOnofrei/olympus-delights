@@ -1,14 +1,14 @@
 import React from 'react'
 import Why_us_cta from '../../molecules/why_us_cta/Why_us_cta';
 import './Why_us.scss';
-import Hero_img from '../../atoms/hero_img/Hero_img';
-import image from '../../../assets/strawberryYogurt.png';
+import image from '../../../assets/strawberryYogurt.png'
 
 const Why_us = () => {
   return (
 		<>
-			<section>
-				<Hero_img source={image} />
+			<h3>Why us?</h3>
+			<section className="why_us_section">
+				<img src={image} alt="" />
 				<Why_us_cta />
 			</section>
 		</>

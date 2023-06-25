@@ -1,16 +1,15 @@
 import React from 'react'
 import Accordion_item from '../../atoms/accordion_item/Accordion_item';
+import './Accordion.scss'
 
 const Accordion = () => {
   return (
-    <div className='accordion'>
-        {data.map((itemInfo,index) =>{
-            return(
-                <Accordion_item key={index} data={itemInfo}/>
-            )
-        })}
-    </div>
-  )
+		<div className="accordion">
+			{data.map((itemInfo, index) => {
+				return <Accordion_item key={index} data={itemInfo} />;
+			})}
+		</div>
+	);
 }
 
 const data = [

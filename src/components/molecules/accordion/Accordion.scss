@@ -1,0 +1,15 @@
+@import '../../../scss/foundation/variables';
+
+.accordion{
+    @include sectionCta;
+    padding: 4rem 10rem;
+
+    background: url('../../../assets/cherryyogurt.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    & p{
+        max-width: 50%;
+    }
+   
+}
