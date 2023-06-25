@@ -24,3 +24,27 @@ a{
         font-size: $h4;
     }
 }
+
+/*************
+ * SCROLLBAR *
+ *************/
+
+ /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffdada;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $buttonPink;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #009fbd;
+}

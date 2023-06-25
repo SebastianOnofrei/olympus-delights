@@ -4,7 +4,8 @@
 .hero_cta{
    
     @include sectionCta;
-
+    padding-left: 10rem;
+    
     & h1{
         font-size: $h1;
         font-family: $fira-sans;
