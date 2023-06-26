@@ -3,13 +3,10 @@
 .accordion{
     @include sectionCta;
     padding: 4rem 10rem;
-
-    background: url('../../../assets/cherryyogurt.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    
+    max-width: 70%;
+    min-width: 70%;
     & p{
-        max-width: 50%;
+        max-width: 80%;
     }
    
 }

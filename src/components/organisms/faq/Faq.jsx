@@ -8,6 +8,8 @@ const Faq = () => {
 			<h3>FAQ</h3>
 			<section className="faq_section">
 				<Accordion />
+				<div className="img-container faq_img">
+				</div>
 			</section>
 		</>
 	);

@@ -1,0 +1,46 @@
+@import '../../../scss/foundation/variables';
+.accordion_item{
+    margin-bottom: .5rem;
+    padding: 2rem 0;
+    border-bottom: 2px solid #251b3736;
+    border-bottom-width: 50%;
+
+    & .accordion_item_title-container{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        & .arrow{
+            width: 2rem;
+            height: 2rem;
+            background: url('../../../assets/arrow.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: bottom;   
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+        }
+
+        .arrow-up{
+            background: url('../../../assets/arrow_up.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: bottom;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+        }
+    }
+
+    & .accordion_item--content{
+        color: $hoverPink;
+        font-weight: $regular;
+        transition: all .5s cubic-bezier(1,0,1,0);
+
+        &.show{
+            transition: all .5s cubic-bezier(0,1,0,1);
+        }
+    }
+}

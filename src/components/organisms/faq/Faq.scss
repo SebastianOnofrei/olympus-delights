@@ -1,6 +1,12 @@
 .faq_section{
-    
-    & .faq_image{
-        width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & .faq_img{
+        position: relative;
+        top: 4rem;
+        background-size: contain;
+        background: url('../../../assets/cherryyogurt.png');
+        background-position: center;
     }
 }
