@@ -1,11 +1,16 @@
 import React from 'react'
+import Button from "../../atoms/button/Button";
 import './Why_us_cta.scss';
 
 const Why_us_cta = () => {
   return (
 		<>
 			<div className="why_us_cta">
-				<p>Greek Yogurt is healthier than regular yogurt.</p>
+				<p>
+					Greek Yogurt is healthier than regular yogurt. It's made with live
+					active cultures and is a n excellent source of calcium for healthy
+					bones.
+				</p>
 				<p>
 					It's high in protein and low in sugar, which makes it perfect for
 					breakfast, lunch, or dinner! Greek yogurt is made by straining out the
@@ -31,6 +36,7 @@ const Why_us_cta = () => {
 					donations. Questions related to our product? Contact our community
 					manager at the link below.
 				</p>
+				<Button text="Buy now" />
 			</div>
 		</>
 	);

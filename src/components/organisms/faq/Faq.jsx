@@ -1,6 +1,5 @@
 import React from 'react'
 import Accordion from '../../molecules/accordion/Accordion'
-import image from '../../../assets/cherryyogurt.png'
 import './Faq.scss';
 
 const Faq = () => {

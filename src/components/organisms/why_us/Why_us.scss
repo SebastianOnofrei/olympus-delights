@@ -11,5 +11,25 @@ h3{
 
 .why_us_section{
     display: flex;
+    justify-content: space-between;
+}
 
+.why_us-img{
+    position: relative;
+    top: -16rem;
+}
+
+.img-container{
+ 
+    height: 42rem;
+    width: 45%;
+    background: url('../../../assets/strawberryYogurt.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.why_us-image{
+    height: 100%;
+    object-fit: cover;
 }

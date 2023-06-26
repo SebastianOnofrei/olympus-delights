@@ -8,7 +8,8 @@ const Why_us = () => {
 		<>
 			<h3>Why us?</h3>
 			<section className="why_us_section">
-				<img src={image} alt="" />
+				<div className='img-container'>
+				</div>
 				<Why_us_cta />
 			</section>
 		</>

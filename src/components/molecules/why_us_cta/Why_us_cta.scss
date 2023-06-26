@@ -3,4 +3,10 @@
 
 .why_us_cta{
     @include sectionCta;
+    width: 55%;
+    p{
+        max-width: 90%;
+    }
+
 }
+
