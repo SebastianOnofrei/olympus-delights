@@ -1,0 +1,41 @@
+@import '../../../scss/foundation/variables';
+ 
+footer{
+    margin-top: 4rem;
+    padding: 6rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(226,114,133);
+    background: radial-gradient(circle, rgba(226,114,133,1) 0%, rgba(233,153,148,1) 100%);
+
+    & h5{
+        color: $white;
+        font-size: 1.6rem;
+        font-family: $overpass;
+        font-weight: $bold;
+        line-height: normal;
+    }
+    
+    & ul{
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+        & li{
+            color: $white;
+            font-size: 1.4rem;
+            font-family: $overpass;
+            font-weight: $regular;
+            line-height: normal;
+            cursor: pointer;
+            transition: all .15s ease-in-out;
+
+            &:hover{
+                font-weight: $bold;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}

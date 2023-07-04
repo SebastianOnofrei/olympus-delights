@@ -1,4 +1,7 @@
+@import '../../../scss/foundation/variables';
+
 .faq_section{
+    padding: 0 $horizontalPadding;
     display: flex;
     justify-content: space-between;
     align-items: center;
